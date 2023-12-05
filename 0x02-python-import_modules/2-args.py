@@ -14,4 +14,4 @@ if __name__ == "__main__":
     # Printing out the arguments with its index
     if a > 0:
         for i in argv[1:]:
-            print(argv.index(i), ':', i)
+            print(f"{argv.index(i)}:", i)
